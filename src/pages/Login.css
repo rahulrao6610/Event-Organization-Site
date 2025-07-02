@@ -1,0 +1,80 @@
+/* src/pages/Login.css */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  display: flex;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  width: 700px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.login-left {
+  flex: 1;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left img {
+  width: 150px;
+}
+
+.login-right {
+  flex: 1;
+  padding: 2rem;
+}
+
+.login-right h2 {
+  margin-bottom: 1rem;
+}
+
+.login-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-right input {
+  padding: 12px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.login-right button {
+  padding: 12px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.login-right .error {
+  color: red;
+  margin-top: 0.5rem;
+}
+
+.login-links {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.login-links a {
+  color: #333;
+  text-decoration: none;
+}
+.success {
+  color: green;
+  margin-top: 10px;
+}
